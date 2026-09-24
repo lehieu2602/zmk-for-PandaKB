@@ -33,18 +33,18 @@
             display-name = "default";
 
             // ------------------------------------------------------------------------------------------------------------
-            // |  ESC  |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   |   +   |
-            // |  TAB  |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P   |   _   |
+            // |  ESC  |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   |   =   |
+            // |  TAB  |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P   |   -   |
             // | CAPS  |  A  |  S  |  D   |  F   |  G   |                   |  H   |  J    |  K    |  L   |   ;   |   '   |
             // | SHIFT |  Z  |  X  |  C   |  V   |  B   |  MUTE  |  | PLAY  |  N   |  M    |  ,    |  .   |   /   | SHIFT |
-            //               | CTRL| GUI  | ALT  | LOWER|  SPACE |  | ENTER | RAISE| BKSPC | DEL   |  ?   |
+            //               | CTRL| GUI  | ALT  | LOWER|  ENTER |  | SPACE | RAISE| BKSPC | DEL   |  `   |
 
             bindings = <
-&kp ESC       &kp N1  &kp N2          &kp N3    &kp N4     &kp N5                              &kp N6     &kp N7         &kp N8      &kp N9        &kp N0    &kp PLUS
-&kp TAB       &kp Q   &kp W           &kp E     &kp R      &kp T                               &kp Y      &kp U          &kp I       &kp O         &kp P     &kp UNDERSCORE
+&kp ESC       &kp N1  &kp N2          &kp N3    &kp N4     &kp N5                              &kp N6     &kp N7         &kp N8      &kp N9        &kp N0    &kp EQUAL
+&kp TAB       &kp Q   &kp W           &kp E     &kp R      &kp T                               &kp Y      &kp U          &kp I       &kp O         &kp P     &kp MINUS
 &kp CAPSLOCK  &kp A   &kp S           &kp D     &kp F      &kp G                               &kp H      &kp J          &kp K       &kp L         &kp SEMI  &kp SQT
 &kp LSHFT     &kp Z   &kp X           &kp C     &kp V      &kp B      &kp C_MUTE    &kp C_PP   &kp N      &kp M          &kp COMMA   &kp DOT       &kp FSLH  &kp RSHFT
-                      &kp LCTRL       &kp LGUI  &kp LALT   &mo LOWER  &kp SPACE     &kp ENTER  &mo RAISE  &kp BACKSPACE  &kp DELETE  &kp QUESTION
+                      &kp LCTRL       &kp LGUI  &kp LALT   &mo LOWER  &kp ENTER     &kp SPACE  &mo RAISE  &kp BACKSPACE  &kp DELETE  &kp GRAVE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
