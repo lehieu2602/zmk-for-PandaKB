@@ -1,1 +1,7 @@
-![image](https://github.com/Penguinchat/zmk-for-PandaKB.com-/blob/Description/images/Sofle_keymap.svg)
+# PandaKB Sofle – ZMK firmware
+
+- Keymap: `config/Sofle.keymap`
+- Tùy chọn (sleep, OLED, BLE…): `config/Sofle.conf`
+- Phần cứng (pin, OLED, encoder): `boards/shields/Sofle/`
+
+Push lên GitHub → tab Actions → tải artifact → nạp `Sofle_left.uf2` / `Sofle_right.uf2`.
