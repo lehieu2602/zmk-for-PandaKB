@@ -1,0 +1,5 @@
+config PANDAKB_PERIPHERAL_CAPS_INDICATOR
+    bool "Show CAPS on the split peripheral OLED (nice_oled)"
+    default y
+    depends on ZMK_DISPLAY && ZMK_SPLIT && !ZMK_SPLIT_ROLE_CENTRAL
+    depends on ZMK_SPLIT_PERIPHERAL_HID_INDICATORS && NICE_OLED_ON

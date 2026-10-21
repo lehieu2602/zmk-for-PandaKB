@@ -1,0 +1,6 @@
+if(CONFIG_PANDAKB_PERIPHERAL_CAPS_INDICATOR)
+  zephyr_library()
+  zephyr_library_include_directories(${ZEPHYR_LVGL_MODULE_DIR})
+  zephyr_library_include_directories(${APPLICATION_SOURCE_DIR}/include)
+  zephyr_library_sources(src/peripheral_caps_indicator.c)
+endif()
