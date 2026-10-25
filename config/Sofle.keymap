@@ -77,14 +77,14 @@
 
             // ------------------------------------------------------------------------------------------------------------
             // |  ESC  |      |      |       |       |      |                |      |      |       |      |       | PSCR  |
-            // |       |      |  ^   | MENU  |       |      |                | PGUP |      |   ^   |      |   0   |  ] }  |
+            // |       |      |  ^   | MENU  |       |      |                | PGUP |      |  INS  |      | PSCR  |  ] }  |
             // |       |  <-  |  v   |  ->   |       | CAPS |                | PGDN |   <- |   v   |  ->  |  DEL  | BKSPC |
             // |       | UNDO | CUT  | COPY  | PASTE |      |      |  |      |      |      |       |      |       |       |
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
 &kp ESC     &trans        &trans        &trans        &trans        &trans                          &trans     &trans    &trans    &trans     &trans   &kp PSCRN
-&trans      &trans        &kp UP        &kp K_CMENU   &trans        &trans                          &kp PG_UP  &trans    &kp UP    &trans     &kp N0   &kp RBKT
+&trans      &trans        &kp UP        &kp K_CMENU   &trans        &trans                          &kp PG_UP  &trans    &kp INS   &trans     &kp PSCRN &kp RBKT
 &trans      &kp LEFT      &kp DOWN      &kp RIGHT     &trans        &kp CLCK                        &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL  &kp BSPC
 &trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans    &trans  &trans     &trans    &trans    &trans     &trans   &trans
                           &trans        &trans        &trans        &trans        &trans    &trans  &trans     &trans    &trans    &trans

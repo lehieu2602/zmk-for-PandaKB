@@ -84,9 +84,9 @@ layers:
   - {t: ▽, type: trans}
   - PG UP
   - {t: ▽, type: trans}
-  - UP
+  - INS
   - {t: ▽, type: trans}
-  - '0'
+  - PSCRN
   - ']'
   - {t: ▽, type: trans}
   - LEFT
