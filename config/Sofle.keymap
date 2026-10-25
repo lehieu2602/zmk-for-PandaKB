@@ -36,14 +36,14 @@
             // |  `~   |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   |   =   |
             // |  TAB  |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P   |  \ |  |
             // | CAPS  |  A  |  S  |  D   |  F   |  G   |                   |  H   |  J    |  K    |  L   |   ;   |   '   |
-            // | SHIFT |  Z  |  X  |  C   |  V   |  B   |  MUTE  |  | PLAY  |  N   |  M    |  ,    |  .   |   /   | SHIFT |
+            // | SHIFT |  Z  |  X  |  C   |  V   |  B   |  PLAY  |  | MUTE  |  N   |  M    |  ,    |  .   |   /   | SHIFT |
             //               | CTRL| GUI  | ALT  | LOWER|  ENTER |  | SPACE | RAISE| BKSPC | DEL   | - _  |
 
             bindings = <
 &kp GRAVE     &kp N1  &kp N2          &kp N3    &kp N4     &kp N5                              &kp N6     &kp N7         &kp N8      &kp N9        &kp N0    &kp EQUAL
 &kp TAB       &kp Q   &kp W           &kp E     &kp R      &kp T                               &kp Y      &kp U          &kp I       &kp O         &kp P     &kp BSLH
 &kp CAPSLOCK  &kp A   &kp S           &kp D     &kp F      &kp G                               &kp H      &kp J          &kp K       &kp L         &kp SEMI  &kp SQT
-&kp LSHFT     &kp Z   &kp X           &kp C     &kp V      &kp B      &kp C_MUTE    &kp C_PP   &kp N      &kp M          &kp COMMA   &kp DOT       &kp FSLH  &kp RSHFT
+&kp LSHFT     &kp Z   &kp X           &kp C     &kp V      &kp B      &kp C_PP      &kp C_MUTE &kp N      &kp M          &kp COMMA   &kp DOT       &kp FSLH  &kp RSHFT
                       &kp LCTRL       &kp LGUI  &kp LALT   &mo LOWER  &kp ENTER     &kp SPACE  &mo RAISE  &kp BACKSPACE  &kp DELETE  &kp MINUS
             >;
 
